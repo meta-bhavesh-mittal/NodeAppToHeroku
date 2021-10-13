@@ -43,8 +43,6 @@ app.use(function(req, res, next) {
     next();
 });
 
-app.use(allowCrossDomain);
-app.use(app.router);
 
 app.post('', function(req, res) {
 
