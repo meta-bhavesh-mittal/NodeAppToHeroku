@@ -30,7 +30,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.set('port', process.env.PORT || 2208);
+app.set('port', process.env.PORT || 80);
 
 app.post('', function(req, res) {
 
