@@ -1,19 +1,19 @@
 {
-  "name": "coolnodeapp",
-  "version": "1.0.0",
-  "description": "node app ",
-  "main": "app.js",
-  "scripts": {
-  "start": "node app.js"
-},
-  "repository": {
-  "type": "git",
-  "url": ""
-},
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-  "url": ""
-},
-  "homepage": ""
+    "name": "Salesfore_OAuthDemo_JWT",
+    "version": "1.0.0",
+    "description": "Salesforce JWT OAuth Demo",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "author": "Bhavesh Mittal",
+    "license": "ISC",
+    "bugs": {
+      "url": ""
+    },
+    "homepage": ""
 }
