@@ -2,9 +2,9 @@
     "name": "Salesfore_OAuthDemo_JWT",
     "version": "0.0.1",
     "description": "Salesforce JWT OAuth Demo",
-    "main": "server.js",
+    "main": "app.js",
     "scripts": {
-        "start": "node server.js"
+        "start": "node app.js"
     },
     "repository": {
         "type": "git",
