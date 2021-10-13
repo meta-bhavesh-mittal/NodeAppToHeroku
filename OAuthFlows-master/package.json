@@ -1,6 +1,6 @@
 {
-  "name": "coolnodeapp",
-  "version": "1.0.0",
+  "name": "Salesfore_OAuthDemo_JWT",
+  "version": "0.0.1",
   "description": "node app ",
   "main": "app.js",
   "scripts": {
