@@ -97,10 +97,10 @@ function extractAccessToken(err, remoteResponse, remoteBody, res) {
 
     //success
     if (sfdcResponse.access_token) {
-        res.writeHead(302, {
+        /*res.writeHead(302, {
             'Location': 'Main',
             'Set-Cookie': ['AccToken=' + sfdcResponse.access_token, 'APIVer=' + apiVersion, 'InstURL=' + sfdcResponse.instance_url, 'idURL=' + sfdcResponse.id]
-        });
+        });*/
     } else {
         res.write('Some error occurred. Make sure connected app is approved previously if its JWT flow, Username and Password is correct if its Password flow. ');
         res.write(' Salesforce Response : ');
